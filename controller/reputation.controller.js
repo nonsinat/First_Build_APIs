@@ -46,7 +46,7 @@ async function createReputation(req, res, next) {
             title: data.title,
             dateJoin: data.dateJoin,
             profileUrl: data.profileUrl,    
-            moreinf : data.moreinf,
+            moreinf : data.moreinf, 
 
         });
         const result = await Reputation.create(newReputation);
