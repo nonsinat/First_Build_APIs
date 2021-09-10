@@ -6,7 +6,7 @@ const db =mongoose.connect(config.DB_URL,{
     // userFindAndMotify: true,
     // userUnifiedTopology:true,
     // userNewUrlParser: true, 
-},(err)=>{
+},(err)=>{ 
     if (err) return console.log(err);
     console.log("DB Connected");
     

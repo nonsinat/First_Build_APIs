@@ -17,8 +17,7 @@ const { create, update } = require("../models/model.user");
     } catch (error) {
         res.status(404).send({message : "User Not Found"});
     }
-
-}
+}  
 
 async function getOneUser (req,res,next){
     try {
